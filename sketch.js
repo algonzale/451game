@@ -16,3 +16,11 @@ function draw() {
   background(51);
   montag.show();
 }
+
+function keypressed() {
+  if(keyCode === UP_ARROW) {
+    montag.move(10);
+  }else if(keyCode === DOWN_ARROW) {
+    montag.move(-10);
+  }
+}
