@@ -19,8 +19,8 @@ function draw() {
 
 function keyPressed() {
   if(keyCode === UP_ARROW) {
-    montag.move(10);
-  }else if(keyCode === DOWN_ARROW) {
     montag.move(-10);
+  }else if(keyCode === DOWN_ARROW) {
+    montag.move(10);
   }
 }
