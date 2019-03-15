@@ -17,7 +17,7 @@ function draw() {
   montag.show();
 }
 
-function keypressed() {
+function keyPressed() {
   if(keyCode === UP_ARROW) {
     montag.move(10);
   }else if(keyCode === DOWN_ARROW) {
