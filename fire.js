@@ -5,7 +5,7 @@ function Fire(x, y) {
   this.toExplode = false;
 
   this.show = function() {
-    image(imgFire, this.x, this.y, imgFire.width/4, imgFire.height/4);
+    image(imgFire, this.x, this.y, imgFire.width/6, imgFire.height/6);
   }
 
   this.explode = function() {
