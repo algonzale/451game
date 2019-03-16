@@ -1,11 +1,11 @@
 function Fire(x, y) {
   this.y = x;
   this.x = y;
- // this.r = 10;
+  this.r = 10;
   this.toExplode = false;
 
   this.show = function() {
-    image(imgFire, this.x, this.y, imgFire.width/6, imgFire.height/6);
+    image(imgFire, this.x, this.y, imgFire.width/8, imgFire.height/8);
   }
 
   this.explode = function() {
