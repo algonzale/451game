@@ -1,12 +1,14 @@
 var montag;
 let imgMontag;
 let imgFire;
+let imgBook;
 var books = [];
 var fires = [];
 
 function preload() {
   imgMontag = loadImage('./images/montag.png');
   imgFire = loadImage('./images/fire.png');
+  imgBook = loadImage('./images/book.png');
 }
 
 function setup() {

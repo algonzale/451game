@@ -19,7 +19,6 @@ function Book(x, y) {
   }
 
   this.show = function() {
-    fill(255);
-    ellipse(this.x, this.y, this.r * 2, this.r * 2);
+    image(imgBook, this.x, this.y, imgBook.width/6, imgBook.height/6);
   }
 }
