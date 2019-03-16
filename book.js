@@ -24,6 +24,6 @@ function Book(x, y) {
   }
 
   this.show = function() {
-    image(imgBook, this.x, this.y, imgBook.width/50, imgBook.height/50);
+    image(imgBook, this.x, this.y, imgBook.width/30, imgBook.height/30);
   }
 }
