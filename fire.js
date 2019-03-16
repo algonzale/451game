@@ -1,13 +1,11 @@
 function Fire(x, y) {
   this.y = x;
   this.x = y;
-  this.r = 10;
+ // this.r = 10;
   this.toExplode = false;
 
   this.show = function() {
-  	noStroke();
-    fill(247, 82, 0);
-    ellipse(this.x, this.y, this.r * 2, this.r * 2);
+    image(imgFire, this.x, this.y, imgFire.width/4, imgFire.height/4);
   }
 
   this.explode = function() {
