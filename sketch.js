@@ -31,6 +31,9 @@ function draw() {
       if(fires[i].hits(books[j])) {
         books.splice(j, 1)
         fires[i].explode();
+        for (let o = 0; o < books.length; o++) {
+          books[o].setYdir(books.length);
+        }
       }
     }
   }
