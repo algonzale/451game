@@ -4,7 +4,7 @@ function Montag() {
 
 
   this.show = function() {
-    image(imgMontag, 0, this.y, imgMontag.width/4, imgMontag.height/4);
+    image(imgMontag, 40, 200, imgMontag.width/4, imgMontag.height/4);
   }
 
   this.setDir = function(dir) {
