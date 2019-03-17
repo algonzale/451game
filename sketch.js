@@ -34,8 +34,21 @@ function draw() {
         for (let o = 0; o < books.length; o++) {
           books[o].setYdir(books.length);
         }
+        if (books.length === 0) {
+          finalize();
+        }
       }
     }
+  }
+
+  function finalize() {
+    let body = document.getElementsByTagName('body')[0];
+    let gameCanvas = document.getElementById('defaultCanvas0');
+    gameCanvas.remove();
+    let wonMssg = document.createElement('h1');
+    wonMssg.className = "mssg";
+    wonMssg.innerHTML = 'You won!';
+    body.appendChild(wonMssg);
   }
 
   var edge = false;
